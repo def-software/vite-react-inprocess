@@ -1,7 +1,7 @@
 //import { useState } from 'react'
 import reactLogo from './assets/react.svg';
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 //import viteLogo from '/web.jpg'
 import './App.css'
 import './estilos/fondo.css'
@@ -20,8 +20,8 @@ function App() {
           </a>
         </div>
         <Analytics/>
-      </div>
-      <SpeedInsights/>                          
+        <SpeedInsights/>
+      </div>                           
       </>
       
   )
