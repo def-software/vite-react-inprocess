@@ -1,5 +1,6 @@
 //import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import { Analytics } from "@vercel/analytics/react"
 //import viteLogo from '/web.jpg'
 import './App.css'
 import './estilos/fondo.css'
@@ -17,6 +18,7 @@ function App() {
             <img src={reactLogo} className="logo react" alt="React logo" />
           </a>
         </div>
+        <Analytics/>
       </div>                             
       </>
       
